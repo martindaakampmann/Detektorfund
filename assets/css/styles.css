@@ -4,10 +4,103 @@
   box-sizing: border-box;
 }
 
-.nav{
-  display: flex;
-  
-  align-items: center;
-  justify-self: center;
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
 
+section {
+  min-height: 700px;
+}
+
+/* nav */
+.hero {
+  background-image: url(/assets/css/img/Placement\ Area\ [ASSEThero][SIZEDefault][STATEDEFAULT].png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 768px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  margin-right: 142px;
+  margin-left: 260px;
+  padding: 40px;
+  background-color: #ffff;
+  border-radius: 150px;
+}
+
+.nav {
+  height: 103px;
+  padding: 0 143px;
+  margin-bottom: 0px;
+}
+
+.nav ul {
+  max-width: 1080px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.nav ul li:nth-child(1) {
+  margin-left: 1px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.nav a:nth-child(1) {
+  text-align: center;
+  color: black;
+}
+
+.nav a:nth-last-of-type(1) {
+  color: #ffff;
+}
+
+.nav ul li:nth-last-of-type(1) {
+  display: flex;
+  margin-left: 202px;
+  padding: 10px;
+  border-radius: 150px;
+  background-color: #cdb888;
+}
+
+.h1 {
+  display: flex;
+  margin-top: 147px;
+  font-size: 80px;
+  color: #ffff;
+}
+
+.p1 {
+  display: flex;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.køb-bogen-btn-midnav {
+  margin-top: 35px;
+  list-style-type: none;
+}
+
+.køb-bogen-btn-midnav a {
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  padding: 10px 40px 10px 40px;
+  background-color: #cdb888;
+  border-radius: 150px;
 }
